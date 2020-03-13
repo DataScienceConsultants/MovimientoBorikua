@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en-US">
+
+<head>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="pingback" href="https://movimientoborikua.org/xmlrpc.php">
+<title>Movimiento Borikua &#8211; Pa&#039;lante Borikua</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Movimiento Borikua &raquo; Feed" href="https://movimientoborikua.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Movimiento Borikua &raquo; Comments Feed" href="https://movimientoborikua.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Movimiento Borikua &raquo; Home Comments Feed" href="https://movimientoborikua.org/sample-page/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.10.4';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-74862137-13';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-74862137-13', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/movimientoborikua.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='mec-font-icons-css'  href='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/css/iconfonts.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-frontend-style-css'  href='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/css/frontend.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-tooltip-style-css'  href='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/packages/tooltip/tooltip.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-tooltip-shadow-style-css'  href='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/packages/tooltip/tooltipster-sideTip-shadow.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-google-fonts-css'  href='//fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CRoboto%3A100%2C300%2C400%2C700&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-lity-style-css'  href='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/packages/lity/lity.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://movimientoborikua.org/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://movimientoborikua.org/wp-includes/css/dist/block-library/theme.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='x-stack-css'  href='https://movimientoborikua.org/wp-content/themes/pro/framework/dist/css/site/stacks/integrity-light.css?ver=2.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='x-child-css'  href='https://movimientoborikua.org/wp-content/themes/pro-child/style.css?ver=2.5.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://movimientoborikua.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mecdata = {"day":"day","days":"days","hour":"hour","hours":"hours","minute":"minute","minutes":"minutes","second":"second","seconds":"seconds"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/js/frontend.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/packages/tooltip/tooltip.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/js/events.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/packages/lity/lity.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/packages/colorbrightness/colorbrightness.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/plugins/modern-events-calendar/assets/packages/owl-carousel/owl.carousel.min.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/movimientoborikua.org","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.10.4'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/themes/pro/cornerstone/assets/dist/js/site/cs-head.js?ver=3.5.2'></script>
+<link rel='https://api.w.org/' href='https://movimientoborikua.org/wp-json/' />
+<link rel="canonical" href="https://movimientoborikua.org/" />
+<link rel='shortlink' href='https://movimientoborikua.org/' />
+<link rel="alternate" type="application/json+oembed" href="https://movimientoborikua.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmovimientoborikua.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://movimientoborikua.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmovimientoborikua.org%2F&#038;format=xml" />
+<link rel="icon" href="https://movimientoborikua.org/wp-content/uploads/2018/10/cropped-icon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://movimientoborikua.org/wp-content/uploads/2018/10/cropped-icon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://movimientoborikua.org/wp-content/uploads/2018/10/cropped-icon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://movimientoborikua.org/wp-content/uploads/2018/10/cropped-icon-1-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			body {
+    background: rgb(240,235,235) url(/wp-content/uploads/2018/10/Background-Red-Stripes-v3.png) center top 100% repeat !important;
+}		</style>
+		<style id="x-generated-css">a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.x-breadcrumb-wrap a:hover,.widget ul li a:hover,.widget ol li a:hover,.widget.widget_text ul li a,.widget.widget_text ol li a,.widget_nav_menu .current-menu-item > a,.x-accordion-heading .x-accordion-toggle:hover,.x-comment-author a:hover,.x-comment-time:hover,.x-recent-posts a:hover .h-recent-posts{color:rgb(245,51,63);}a:hover,.widget.widget_text ul li a:hover,.widget.widget_text ol li a:hover,.x-twitter-widget ul li a:hover{color:rgb(255,18,0);}.rev_slider_wrapper,a.x-img-thumbnail:hover,.x-slider-container.below,.page-template-template-blank-3-php .x-slider-container.above,.page-template-template-blank-6-php .x-slider-container.above{border-color:rgb(245,51,63);}.entry-thumb:before,.x-pagination span.current,.flex-direction-nav a,.flex-control-nav a:hover,.flex-control-nav a.flex-active,.mejs-time-current,.x-dropcap,.x-skill-bar .bar,.x-pricing-column.featured h2,.h-comments-title small,.x-entry-share .x-share:hover,.x-highlight,.x-recent-posts .x-recent-posts-img:after{background-color:rgb(245,51,63);}.x-nav-tabs > .active > a,.x-nav-tabs > .active > a:hover{box-shadow:inset 0 3px 0 0 rgb(245,51,63);}.x-main{width:69.536945%;}.x-sidebar{width:25.536945%;}.x-comment-author,.x-comment-time,.comment-form-author label,.comment-form-email label,.comment-form-url label,.comment-form-rating label,.comment-form-comment label,.widget_calendar #wp-calendar caption,.widget.widget_rss li .rsswidget{font-family:"Lato",sans-serif;font-weight:700;}.p-landmark-sub,.p-meta,input,button,select,textarea{font-family:"Lato",sans-serif;}.widget ul li a,.widget ol li a,.x-comment-time{color:#999999;}.widget_text ol li a,.widget_text ul li a{color:rgb(245,51,63);}.widget_text ol li a:hover,.widget_text ul li a:hover{color:rgb(255,18,0);}.comment-form-author label,.comment-form-email label,.comment-form-url label,.comment-form-rating label,.comment-form-comment label,.widget_calendar #wp-calendar th,.p-landmark-sub strong,.widget_tag_cloud .tagcloud a:hover,.widget_tag_cloud .tagcloud a:active,.entry-footer a:hover,.entry-footer a:active,.x-breadcrumbs .current,.x-comment-author,.x-comment-author a{color:#272727;}.widget_calendar #wp-calendar th{border-color:#272727;}.h-feature-headline span i{background-color:#272727;}@media (max-width:979px){}html{font-size:14px;}@media (min-width:480px){html{font-size:14px;}}@media (min-width:767px){html{font-size:14px;}}@media (min-width:979px){html{font-size:14px;}}@media (min-width:1200px){html{font-size:14px;}}body{font-style:normal;font-weight:400;color:#999999;background:transparent url(/wp-content/uploads/2018/10/Background-Red-Stripes-v3.png) center top repeat;}.w-b{font-weight:400 !important;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Lato",sans-serif;font-style:normal;font-weight:700;}h1,.h1{letter-spacing:-0.035em;}h2,.h2{letter-spacing:-0.035em;}h3,.h3{letter-spacing:-0.035em;}h4,.h4{letter-spacing:-0.035em;}h5,.h5{letter-spacing:-0.035em;}h6,.h6{letter-spacing:-0.035em;}.w-h{font-weight:700 !important;}.x-container.width{width:88%;}.x-container.max{max-width:1200px;}.x-main.full{float:none;display:block;width:auto;}@media (max-width:979px){.x-main.full,.x-main.left,.x-main.right,.x-sidebar.left,.x-sidebar.right{float:none;display:block;width:auto !important;}}.entry-header,.entry-content{font-size:1rem;}body,input,button,select,textarea{font-family:"Lato",sans-serif;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a,blockquote{color:#272727;}.cfc-h-tx{color:#272727 !important;}.cfc-h-bd{border-color:#272727 !important;}.cfc-h-bg{background-color:#272727 !important;}.cfc-b-tx{color:#999999 !important;}.cfc-b-bd{border-color:#999999 !important;}.cfc-b-bg{background-color:#999999 !important;}.x-btn,.button,[type="submit"]{color:#ffffff;border-color:rgb(255,255,255);background-color:#ff2a13;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);border-radius:100em;padding:0.429em 1.143em 0.643em;font-size:14px;}.x-btn:hover,.button:hover,[type="submit"]:hover{color:rgb(51,51,51);border-color:rgb(255,255,255);background-color:rgb(0,173,238);text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);}.x-btn.x-btn-real,.x-btn.x-btn-real:hover{margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);}.x-btn.x-btn-real{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-real:hover{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-flat,.x-btn.x-btn-flat:hover{margin-bottom:0;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);box-shadow:none;}.x-btn.x-btn-transparent,.x-btn.x-btn-transparent:hover{margin-bottom:0;border-width:3px;text-shadow:none;text-transform:uppercase;background-color:transparent;box-shadow:none;}.wf-loading a, .wf-loading p, .wf-loading ul, .wf-loading ol, .wf-loading dl, .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading h5, .wf-loading h6, .wf-loading em, .wf-loading pre, .wf-loading cite, .wf-loading span, .wf-loading table, .wf-loading strong, .wf-loading blockquote { visibility: hidden !important; }.e95-1.x-bar {width:calc(100% - (0px * 2));margin-top:0px;margin-left:0px;margin-right:0px;height:120px;font-size:16px;background-color:transparent;z-index:9999;}.e95-11.x-bar {height:50vh;font-size:calc(2.4vmin + 8px);background-color:rgba(255,255,255,0);box-shadow:0em 0.15em 2em rgba(255,255,255,0);z-index:0;}.e95-1.x-bar-content {flex-direction:row;align-items:flex-start;height:120px;}.e95-11.x-bar-content {flex-direction:column;align-items:stretch;height:50vh;}.e95-1.x-bar-content,.e95-11.x-bar-content {justify-content:space-between;flex:0 1 100%;}.e95-1.x-bar-outer-spacers:before,.e95-1.x-bar-outer-spacers:after {flex-basis:2em;width:2em;height:2em;}.e95-11.x-bar-outer-spacers:before,.e95-11.x-bar-outer-spacers:after {flex-basis:0em;width:0em;height:0em;}.e95-1.x-bar-space {font-size:16px;height:120px;}.e95-11.x-bar-space {font-size:calc(2.4vmin + 8px);height:50vh;}.e95-14.x-anchor {width:400px;min-width:350px;max-width:90%;background-color:transparent;}.e95-9.x-anchor,.e95-10.x-anchor {margin:1vw;border-width:1px;border-style:solid;border-color:rgb(255,255,255);}.e95-9.x-anchor,.e95-10.x-anchor,.e95-14.x-anchor {border-radius:100em;font-size:1em;}.e95-9.x-anchor {background-color:rgb(0,173,238);}.e95-10.x-anchor {background-color:rgb(245,51,63);}.e95-9.x-anchor .x-anchor-content,.e95-10.x-anchor .x-anchor-content {flex-direction:row;}.e95-14.x-anchor .x-anchor-content {flex-direction:column;}.e95-9.x-anchor .x-anchor-content,.e95-10.x-anchor .x-anchor-content,.e95-14.x-anchor .x-anchor-content {justify-content:center;align-items:center;padding:0.625em 1.25em 0.625em 1.25em;}.e95-9.x-anchor[class*="active"],.e95-10.x-anchor[class*="active"] {border-color:rgb(255,255,255);}.e95-9.x-anchor[class*="active"] {background-color:rgb(255,18,0);}.e95-10.x-anchor[class*="active"] {background-color:rgb(0,173,238);}.e95-14.x-anchor[class*="active"] {background-color:transparent;}.e95-9.x-anchor .x-anchor-text,.e95-10.x-anchor .x-anchor-text,.e95-14.x-anchor .x-anchor-text {margin:5px;}.e95-9.x-anchor .x-anchor-text-primary {font-family:inherit;font-weight:400;}.e95-10.x-anchor .x-anchor-text-primary {font-family:"Acme",sans-serif;font-weight:400;}.e95-14.x-anchor .x-anchor-text-primary {font-family:"Montserrat",sans-serif;font-size:1.25em;font-weight:400;text-shadow:0.01em .1em 0em rgb(245,51,63);}.e95-9.x-anchor .x-anchor-text-primary,.e95-10.x-anchor .x-anchor-text-primary {font-size:0.75em;}.e95-9.x-anchor .x-anchor-text-primary,.e95-10.x-anchor .x-anchor-text-primary,.e95-14.x-anchor .x-anchor-text-primary {font-style:normal;line-height:1.2;letter-spacing:0.25em;margin-right:calc(0.25em * -1);text-align:center;text-transform:uppercase;color:white;}.e95-14.x-anchor[class*="active"] .x-anchor-text-primary {text-shadow:0.01em .1em 0em rgb(245,51,63);color:rgb(51,51,51);}.e95-9.x-anchor[class*="active"] .x-anchor-text-primary,.e95-10.x-anchor[class*="active"] .x-anchor-text-primary {color:white;}.e95-14.x-anchor .x-anchor-text-secondary {margin-top:0.35em;font-family:"Montserrat",sans-serif;font-size:0.875em;font-style:normal;font-weight:600;line-height:1;text-align:center;text-shadow:.05em .05em 0px rgb(0,255,255);color:rgb(51,51,51);}.e95-14.x-anchor[class*="active"] .x-anchor-text-secondary {text-shadow:.05em .05em 0px rgb(0,255,255);color:rgba(51,51,51,0.88);}.e95-14.x-anchor .x-graphic {margin:1px;}.e95-14.x-anchor .x-graphic-image {max-width:75px;}.e95-9.x-anchor .x-anchor-particle-primary,.e95-10.x-anchor .x-anchor-particle-primary {width:100%;height:100%;color:rgba(255,255,255,0.25);transform-origin:50% 50%;}.e95-2.x-bar-container,.e95-5.x-bar-container {flex-direction:row;justify-content:space-between;flex:0 1 auto;}.e95-12.x-bar-container {flex-direction:column;justify-content:flex-start;flex:1 0 auto;max-height:50%;margin:-20vh 0px 0vh 0px;}.e95-2.x-bar-container,.e95-5.x-bar-container,.e95-12.x-bar-container {align-items:center;background-color:transparent;}.e95-15.x-line {height:1vh;}.e95-13.x-text {margin:-25vh 0em 0em 0em;padding:0em;font-size:1em;background-color:transparent;}.e95-13.x-text .x-text-content-text {margin:5px;}.e95-13.x-text .x-text-content-text-primary {margin:0 calc(0em * -1) 0 0;font-family:"Acme",sans-serif;font-size:2em;font-style:normal;font-weight:400;line-height:1.1;letter-spacing:0em;text-align:center;text-shadow:0.02em 0.02em 0em rgb(0,255,255);text-transform:none;color:rgb(255,255,255);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}.e95-13.x-text .x-text-content-text-subheadline {margin:0.35rem calc(0em * -1) 0 0;font-family:"Montserrat",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1.2;letter-spacing:0em;text-align:center;text-shadow:0.05em 0.05em 0em rgb(0,255,255);text-transform:uppercase;color:rgb(255,18,0);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}a.e95-4.x-image:hover {background-color:transparent;}.e95-6.x-menu {flex-direction:row;justify-content:space-around;align-items:stretch;align-self:stretch;flex:0 1 auto;margin:0px;font-size:1em;}.e95-6.x-menu > li,.e95-6.x-menu > li > a {flex:0 1 auto;}.e95-6.x-menu > li > .x-anchor {font-size:1em;background-color:transparent;}.e95-6.x-menu > li > .x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:1.25em 1em 1.25em 1em;}.e95-6.x-menu > li > .x-anchor[class*="active"] {background-color:rgba(41,128,185,0.1);}.e95-6.x-menu > li > .x-anchor .x-anchor-text {margin:5px;}.e95-6.x-menu > li > .x-anchor .x-anchor-text-primary {font-family:inherit;font-size:0.75em;font-style:normal;font-weight:400;line-height:1;letter-spacing:0.35em;margin-right:calc(0.35em * -1);text-align:center;text-transform:uppercase;color:white;}.e95-6.x-menu > li > .x-anchor[class*="active"] .x-anchor-text-primary {color:white;}.e95-6.x-menu > li > .x-anchor .x-anchor-sub-indicator {margin:5px;font-size:1.25em;color:rgba(41,128,185,0.5);}.e95-6.x-menu > li > .x-anchor[class*="active"] .x-anchor-sub-indicator {color:rgba(41,128,185,0.5);}.e95-6.x-menu > li > .x-anchor .x-anchor-particle-primary {width:100%;height:2px;color:hsl(204,64%,44%);transform-origin:50% 0%;}.e95-6 .x-dropdown {width:15em;font-size:16px;background-color:rgb(41,128,185);box-shadow:0em 0.5em 3em 0em rgba(0,0,0,0.25);}.e95-6 .sub-menu .x-anchor {border-width:2px 0px 0px 0px;border-style:solid none none none;border-color:rgba(255,255,255,0.15) transparent transparent transparent;font-size:1em;background-color:rgb(41,128,185);box-shadow:inset 0em 0em 0em 0em transparent;}.e95-6 .sub-menu .x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:1em;}.e95-6 .sub-menu .x-anchor[class*="active"] {border-color:rgba(255,255,255,0.15) transparent transparent transparent;background-color:rgb(41,128,185);box-shadow:inset 0em 0em 0em 0em transparent;}.e95-6 .sub-menu .x-anchor .x-anchor-text {margin:4px auto 4px 4px;}.e95-6 .sub-menu .x-anchor .x-anchor-text-primary {font-family:inherit;font-size:0.875em;font-style:normal;font-weight:700;line-height:1;letter-spacing:0.035em;margin-right:calc(0.035em * -1);color:white;}.e95-6 .sub-menu .x-anchor[class*="active"] .x-anchor-text-primary {color:white;}.e95-6 .sub-menu .x-anchor .x-anchor-sub-indicator {margin:0px 4px 0px auto;font-size:1.25em;color:rgba(255,255,255,0.5);}.e95-6 .sub-menu .x-anchor[class*="active"] .x-anchor-sub-indicator {color:rgba(255,255,255,0.5);}.e95-6 .sub-menu .x-anchor .x-anchor-particle-primary {width:100%;height:100%;color:rgba(255,255,255,0.05);transform-origin:0% 50%;}.e95-3.x-anchor-toggle {font-size:1em;background-color:rgba(255,255,255,1);}.e95-3.x-anchor-toggle .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e95-3.x-anchor-toggle[class*="active"] {background-color:rgba(255,255,255,1);}.e95-3.x-anchor-toggle .x-graphic-image {max-width:100px;}.e95-3.x-off-canvas {font-size:16px;}.e95-3.x-off-canvas .x-off-canvas-bg {background-color:rgba(0,0,0,0.75);}.e95-3.x-off-canvas .x-off-canvas-close {width:calc(1em * 2);height:calc(1em * 2);font-size:1.5em;color:rgb(255,18,0);}.e95-3.x-off-canvas .x-off-canvas-close:hover,.e95-3.x-off-canvas .x-off-canvas-close:focus {color:rgba(0,0,0,1);}.e95-3.x-off-canvas .x-off-canvas-content {max-width:100%;padding:calc(1.5em * 2);background-color:rgb(246,246,246);box-shadow:0em 0em 2em 0em rgba(0,0,0,0.25);}.e95-3.x-menu {margin:0px;font-size:1.2em;}.e95-3.x-menu .x-anchor {margin:0em auto 0em auto;font-size:1em;background-color:transparent;}.e95-3.x-menu .x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.75em;}.e95-3.x-menu .x-anchor[class*="active"] {background-color:transparent;}.e95-3.x-menu .x-anchor .x-anchor-text {margin:5px auto 5px auto;}.e95-3.x-menu .x-anchor .x-anchor-text-primary {font-family:"Acme",sans-serif;font-size:1em;font-style:normal;font-weight:400;line-height:1;text-align:center;color:rgba(0,0,0,1);}.e95-3.x-menu .x-anchor[class*="active"] .x-anchor-text-primary {color:rgb(255,18,0);}.e95-3.x-menu .x-anchor .x-anchor-sub-indicator {margin:5px;font-size:1em;color:rgba(0,0,0,1);}.e95-3.x-menu .x-anchor[class*="active"] .x-anchor-sub-indicator {color:rgba(0,0,0,0.5);}.e95-7.x-anchor,.e95-8.x-anchor {width:2.75em;height:2.75em;border-radius:100em;font-size:1em;background-color:transparent;}.e95-7.x-anchor .x-anchor-content,.e95-8.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;}.e95-7.x-anchor[class*="active"],.e95-8.x-anchor[class*="active"] {background-color:transparent;}.e95-7.x-anchor .x-graphic-icon,.e95-8.x-anchor .x-graphic-icon {width:1em;height:1em;line-height:1em;}.e95-7.x-anchor .x-graphic-icon {border-radius:1px;font-size:2em;color:rgb(59,89,152);background-color:rgb(255,255,255);}.e95-8.x-anchor .x-graphic-icon {border-radius:10px;font-size:2.2em;color:rgb(255,255,255);background-color:rgb(255,18,0);}.e95-7.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,255,255);background-color:rgb(59,89,152);}.e95-8.x-anchor .x-graphic-icon[class*="active"] {color:rgb(255,18,0);background-color:rgb(0,173,238);}.e95-4,img:hover{background-color:#fff;}.e43-1.x-bar {height:60vh;font-size:16px;background-color:rgb(0,0,0);box-shadow:0em 0.15em 2em rgba(255,255,255,0);z-index:9999;}.e43-1.x-bar-content {flex-direction:column-reverse;justify-content:flex-end;align-items:stretch;flex:0 1 100%;height:60vh;max-width:100px;}.e43-1.x-bar-outer-spacers:before,.e43-1.x-bar-outer-spacers:after {flex-basis:2em;width:2em;height:2em;}.e43-1.x-bar-space {font-size:16px;}.e43-2.x-bar-container {flex-direction:row;justify-content:center;align-items:flex-end;flex:0 1 auto;background-color:transparent;}.e43-3.x-menu {flex-direction:row;justify-content:space-around;align-items:stretch;align-self:center;flex:0 0 auto;margin:0px;font-size:1em;}.e43-3.x-menu > li,.e43-3.x-menu > li > a {flex:0 1 auto;}.e43-3.x-menu > li > .x-anchor {font-size:1em;background-color:transparent;}.e43-3.x-menu > li > .x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.75em;}.e43-3.x-menu > li > .x-anchor[class*="active"] {background-color:transparent;}.e43-3.x-menu > li > .x-anchor .x-anchor-text {margin:5px;}.e43-3.x-menu > li > .x-anchor .x-anchor-text-primary {font-family:inherit;font-size:1em;font-style:normal;font-weight:400;line-height:1;color:rgb(255,255,255);}.e43-3.x-menu > li > .x-anchor[class*="active"] .x-anchor-text-primary {color:rgba(0,0,0,0.5);}.e43-3.x-menu > li > .x-anchor .x-anchor-sub-indicator {margin:5px;font-size:1em;color:rgb(255,255,255);}.e43-3.x-menu > li > .x-anchor[class*="active"] .x-anchor-sub-indicator {color:rgba(0,0,0,0.5);}.e43-3 .x-dropdown {width:14em;font-size:16px;background-color:#ffffff;box-shadow:0em 0.15em 2em 0em rgba(0,0,0,0.15);}.e43-3 .sub-menu .x-anchor {font-size:1em;background-color:transparent;}.e43-3 .sub-menu .x-anchor .x-anchor-content {flex-direction:row;justify-content:center;align-items:center;padding:0.75em;}.e43-3 .sub-menu .x-anchor[class*="active"] {background-color:transparent;}.e43-3 .sub-menu .x-anchor .x-anchor-text {margin:5px auto 5px 5px;}.e43-3 .sub-menu .x-anchor .x-anchor-text-primary {font-family:inherit;font-size:1em;font-style:normal;font-weight:400;line-height:1;color:rgba(0,0,0,1);}.e43-3 .sub-menu .x-anchor[class*="active"] .x-anchor-text-primary {color:rgba(0,0,0,0.5);}.e43-3 .sub-menu .x-anchor .x-anchor-sub-indicator {margin:5px;font-size:1em;color:rgba(0,0,0,1);}.e43-3 .sub-menu .x-anchor[class*="active"] .x-anchor-sub-indicator {color:rgba(0,0,0,0.5);}.down-arrow{width:0;height:0;border-left:50vw solid transparent;border-right:50vw solid transparent;border-top:75vh solid rgb(0,173,238);position:relative;z-index:-1;}.e2-4.x-anchor,.e2-7.x-anchor,.e2-10.x-anchor,.e2-13.x-anchor {border-width:2px;border-color:rgb(0,173,238);background-color:white;box-shadow:0em 0.1em 0.25em 0em transparent;}.e2-33.x-anchor {border-width:1px;border-color:rgb(255,255,255);background-color:rgb(245,51,63);}.e2-4.x-anchor,.e2-7.x-anchor,.e2-10.x-anchor,.e2-13.x-anchor,.e2-33.x-anchor {border-style:solid;border-radius:100em;}.e2-20.x-anchor {border-radius:0.35em;background-color:transparent;box-shadow:0em 0.15em 0.65em 0em transparent;}.e2-4.x-anchor,.e2-7.x-anchor,.e2-10.x-anchor,.e2-13.x-anchor,.e2-20.x-anchor,.e2-33.x-anchor {font-size:1em;}.e2-4.x-anchor .x-anchor-content,.e2-7.x-anchor .x-anchor-content,.e2-10.x-anchor .x-anchor-content,.e2-13.x-anchor .x-anchor-content,.e2-20.x-anchor .x-anchor-content,.e2-33.x-anchor .x-anchor-content {flex-direction:row;justify-content:center;}.e2-4.x-anchor .x-anchor-content,.e2-7.x-anchor .x-anchor-content,.e2-10.x-anchor .x-anchor-content,.e2-13.x-anchor .x-anchor-content,.e2-33.x-anchor .x-anchor-content {align-items:center;}.e2-20.x-anchor .x-anchor-content {align-items:stretch;padding:0.575em 0.85em 0.575em 0.85em;}.e2-4.x-anchor .x-anchor-content,.e2-7.x-anchor .x-anchor-content,.e2-10.x-anchor .x-anchor-content,.e2-13.x-anchor .x-anchor-content {padding:0.75em 1.5em 0.75em 1.5em;}.e2-33.x-anchor .x-anchor-content {padding:0.625em 1.25em 0.625em 1.25em;}.e2-4.x-anchor[class*="active"],.e2-7.x-anchor[class*="active"],.e2-10.x-anchor[class*="active"],.e2-13.x-anchor[class*="active"] {border-color:rgb(245,51,63);background-color:rgb(0,173,238);box-shadow:0em 0.1em 0.25em 0em hsla(0,0%,0%,0.15);}.e2-33.x-anchor[class*="active"] {border-color:rgb(255,255,255);background-color:rgb(255,18,0);}.e2-20.x-anchor[class*="active"] {background-color:transparent;box-shadow:0em 0.15em 0.65em 0em rgba(0,0,0,0.28);}.e2-20.x-anchor .x-anchor-text,.e2-33.x-anchor .x-anchor-text {margin:5px;}.e2-4.x-anchor .x-anchor-text-primary,.e2-7.x-anchor .x-anchor-text-primary,.e2-10.x-anchor .x-anchor-text-primary,.e2-13.x-anchor .x-anchor-text-primary,.e2-20.x-anchor .x-anchor-text-primary,.e2-33.x-anchor .x-anchor-text-primary {font-family:"Montserrat",sans-serif;font-style:normal;text-transform:uppercase;}.e2-4.x-anchor .x-anchor-text-primary,.e2-7.x-anchor .x-anchor-text-primary,.e2-10.x-anchor .x-anchor-text-primary,.e2-13.x-anchor .x-anchor-text-primary {font-size:0.85em;letter-spacing:0.1em;margin-right:calc(0.1em * -1);color:rgb(21,101,192);}.e2-20.x-anchor .x-anchor-text-primary {font-size:1em;font-weight:600;line-height:2;letter-spacing:-0.02em;margin-right:calc(-0.02em * -1);color:rgba(0,0,0,1);}.e2-33.x-anchor .x-anchor-text-primary {font-size:0.75em;letter-spacing:0.25em;margin-right:calc(0.25em * -1);color:white;}.e2-4.x-anchor .x-anchor-text-primary,.e2-7.x-anchor .x-anchor-text-primary,.e2-10.x-anchor .x-anchor-text-primary,.e2-13.x-anchor .x-anchor-text-primary,.e2-33.x-anchor .x-anchor-text-primary {font-weight:400;line-height:1.2;text-align:center;}.e2-4.x-anchor[class*="active"] .x-anchor-text-primary,.e2-7.x-anchor[class*="active"] .x-anchor-text-primary,.e2-10.x-anchor[class*="active"] .x-anchor-text-primary,.e2-13.x-anchor[class*="active"] .x-anchor-text-primary {color:rgb(255,255,255);}.e2-20.x-anchor[class*="active"] .x-anchor-text-primary {color:rgba(0,0,0,0.5);}.e2-33.x-anchor[class*="active"] .x-anchor-text-primary {color:white;}.e2-20.x-anchor .x-anchor-text-secondary {margin-top:.35em;font-family:"Montserrat",sans-serif;font-size:.75em;font-style:normal;font-weight:400;line-height:2;color:rgba(0,0,0,1);}.e2-20.x-anchor[class*="active"] .x-anchor-text-secondary {color:rgba(51,51,51,0.81);}.e2-4.x-anchor .x-anchor-particle-primary,.e2-7.x-anchor .x-anchor-particle-primary,.e2-10.x-anchor .x-anchor-particle-primary,.e2-13.x-anchor .x-anchor-particle-primary,.e2-33.x-anchor .x-anchor-particle-primary {width:100%;height:100%;}.e2-4.x-anchor .x-anchor-particle-primary,.e2-7.x-anchor .x-anchor-particle-primary,.e2-10.x-anchor .x-anchor-particle-primary,.e2-13.x-anchor .x-anchor-particle-primary {color:rgb(255,18,0);transform-origin:0% 50%;}.e2-33.x-anchor .x-anchor-particle-primary {color:rgba(255,255,255,0.25);transform-origin:50% 50%;}.e2-4.x-anchor .x-anchor-particle-secondary,.e2-7.x-anchor .x-anchor-particle-secondary,.e2-10.x-anchor .x-anchor-particle-secondary,.e2-13.x-anchor .x-anchor-particle-secondary {width:100%;height:100%;color:rgb(0,173,238);transform-origin:100% 50%;}.e2-40.x-column {text-align:justify;}.e2-3.x-column,.e2-6.x-column,.e2-9.x-column,.e2-12.x-column,.e2-15.x-column,.e2-16.x-column,.e2-19.x-column,.e2-21.x-column,.e2-23.x-column,.e2-24.x-column,.e2-25.x-column,.e2-26.x-column,.e2-29.x-column,.e2-31.x-column,.e2-34.x-column,.e2-35.x-column,.e2-36.x-column,.e2-37.x-column,.e2-40.x-column,.e2-42.x-column,.e2-43.x-column,.e2-44.x-column,.e2-45.x-column,.e2-46.x-column {background-color:transparent;z-index:1;}.e2-5.x-line,.e2-8.x-line,.e2-11.x-line,.e2-14.x-line {height:25px;}.e2-30.x-image {max-width:80vw;margin:1vh;border-width:1em;border-style:solid;border-color:rgb(255,255,255);background-color:transparent;box-shadow:0em 0em 1em .01em rgba(0,0,0,0.55);}.e2-30.x-image img {border-radius:3px;}.e2-2.x-container,.e2-18.x-container,.e2-28.x-container,.e2-39.x-container {margin:0em auto 0em auto;background-color:transparent;z-index:1;}.e2-2.x-container,.e2-39.x-container {text-align:center;}.e2-1.x-section {margin:0em;padding:3vh 1vw 3vh 1vw;text-align:left;background-color:rgba(0,0,0,0);}.e2-17.x-section,.e2-27.x-section {margin:0vh;font-size:calc(1.7vmin + 8px);}.e2-38.x-section {margin:0px 0em 0em 0em;padding:5vh 0px 0vh 0px;text-align:justify;background-color:rgb(0,173,238);box-shadow:0em 0em 3em 1em rgba(0,0,0,0.22);z-index:999999999;}.e2-17.x-section {padding:5vh 0px 5vh 0px;background-color:rgba(255,255,255,0);}.e2-27.x-section {padding:10vh 0px 10vh 0px;background-color:rgba(255,255,255,0.85);}.e2-1.x-section,.e2-17.x-section,.e2-27.x-section {z-index:1;}.e2-32.x-text {margin:2vh;padding:0em;font-family:"Montserrat",sans-serif;font-size:.75em;font-style:normal;font-weight:400;line-height:2;letter-spacing:0em;text-transform:none;color:rgb(0,29,39);background-color:transparent;}.e2-32.x-text > :first-child {margin-top:0;}.e2-32.x-text > :last-child {margin-bottom:0;}.e2-22.x-frame {width:600px;max-width:80%;margin:1vh;border-width:1em;border-style:solid;border-color:rgb(255,255,255);font-size:16px;background-color:rgba(0,0,0,0);box-shadow:0em 0em 1em 0.1em rgba(0,0,0,0.55);}.e2-22 .x-frame-inner {padding-bottom:calc((9 / 16) * 100%);}.e2-22 .x-mejs .mejs-controls {margin:auto 15px 15px 15px;border-radius:3px;background-color:rgba(0,0,0,0.8);}.e2-22 .x-mejs .mejs-button button {color:rgba(255,255,255,0.5);}.e2-22 .x-mejs .mejs-button button:hover,.e2-22 .x-mejs .mejs-button button:focus {color:rgba(255,255,255,1);}.e2-22 .x-mejs .mejs-time-total {border-radius:2px;background-color:rgba(255,255,255,0.25);}.e2-22 .x-mejs .mejs-time-loaded {background-color:rgba(255,255,255,0.25);}.e2-22 .x-mejs .mejs-time-current {background-color:rgba(255,255,255,1);}.e2-22 .x-mejs .mejs-time {color:rgba(255,255,255,0.5);}.e2-30{transform:rotate(-6deg)}.e2-17{background-image:linear-gradient(rgba(0,0,0,0),rgba(255,255,255,.85))}.e2-22{transform:rotate(6deg)
+}</style><style id="cornerstone-custom-page-css">.pr-button:hover{}</style><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Acme:400,400i|Montserrat:400,400i,700,700i,600,600i&#038;subset=latin,latin-ext" type="text/css" media="all" data-x-google-fonts /></head>
+
+<body class="home page-template page-template-template-blank-4 page-template-template-blank-4-php page page-id-2 x-integrity x-integrity-light x-full-width-layout-active x-content-sidebar-active x-post-meta-disabled x-child-theme-active pro-v2_5_3 cornerstone-v3_5_2">
+
+  
+  <div id="x-root" class="x-root" >
+
+    
+    <div id="x-site" class="x-site site" >
+
+    
+
+  <header class="x-masthead" role="banner" >
+
+    
+    
+
+<div class="e95-1 x-bar x-bar-top x-bar-h x-bar-absolute x-bar-outer-spacers" data-x-bar="{&quot;id&quot;:&quot;e95-1&quot;,&quot;region&quot;:&quot;top&quot;,&quot;height&quot;:&quot;120px&quot;}" >
+
+    
+      <div class="e95-1 x-bar-content">
+      
+<div class="e95-2 x-bar-container" >
+
+  
+  
+
+<a class="e95-3 x-anchor x-anchor-toggle  x-hide-lg x-hide-xl" tabindex="0" data-x-toggle="1" data-x-toggleable="e95-3" >
+
+  
+  <span class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true" >
+
+  
+<span class="e95-3 x-image x-graphic-image x-graphic-primary" >
+  <img alt="Image" src="https://movimientoborikua.org/wp-content/uploads/2018/10/MovimientoB_2color_logo-v1.png" width="600" height="583" >
+</span>
+
+</span>              </span>
+
+  
+</a>
+
+<a class="e95-4 x-image  x-hide-md x-hide-sm x-hide-xs x-image-preserve-ratio" style="height: 100%; max-height: 583px;" href="/" >
+  <img alt="Movimiento Borikua Website" src="https://movimientoborikua.org/wp-content/uploads/2018/10/MovimientoB_2color_logo-v1.png" width="600" height="583" >
+</a>
+
+</div>
+
+<div class="e95-5 x-bar-container" >
+
+  
+  <ul class="e95-6 x-menu x-menu-inline  x-hide-md x-hide-sm x-hide-xs" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-72" >
+<a class="e95-6 x-anchor x-anchor-menu-item x-always-active" tabindex="0" href="https://movimientoborikua.org/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Home</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf107;" ></i>    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_c" aria-hidden="true" >
+  <span></span>
+</span>  </span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71" >
+<a class="e95-6 x-anchor x-anchor-menu-item" tabindex="0" href="https://movimientoborikua.org/about-us/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >About Us</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf107;" ></i>    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_c" aria-hidden="true" >
+  <span></span>
+</span>  </span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70" >
+<a class="e95-6 x-anchor x-anchor-menu-item" tabindex="0" href="https://movimientoborikua.org/events/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Eventos</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf107;" ></i>    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_c" aria-hidden="true" >
+  <span></span>
+</span>  </span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69" >
+<a class="e95-6 x-anchor x-anchor-menu-item" tabindex="0" href="https://movimientoborikua.org/diario/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Notas Pa&#8217; Mi Gente</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf107;" ></i>    
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-t_c" aria-hidden="true" >
+  <span></span>
+</span>  </span>
+
+  
+</a>
+</li></ul>
+<a class="e95-7 x-anchor x-anchor-button  x-hide-xs" tabindex="0" href="https://www.facebook.com/pg/movimientoborikua/posts/" target="_blank" >
+
+  
+  <span class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true" >
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b="&#xf09a;" ></i>
+
+</span>              </span>
+
+  
+</a>
+
+<a class="e95-8 x-anchor x-anchor-button  x-hide-xs" tabindex="0" href="https://www.instagram.com/movimientoborikua/" target="_blank" rel="nofollow" >
+
+  
+  <span class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true" >
+
+  
+<i class="x-icon x-graphic-icon x-graphic-primary" aria-hidden="true" data-x-icon-b="&#xf16d;" ></i>
+
+</span>              </span>
+
+  
+</a>
+
+<a class="e95-9 x-anchor x-anchor-button" tabindex="0" href="/volunteer" target="_blank" rel="nofollow" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Volunteer</span></span>        
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-c_c" aria-hidden="true" >
+  <span></span>
+</span>  </span>
+
+  
+</a>
+
+<a class="e95-10 x-anchor x-anchor-button  x-hide-xs" tabindex="0" href="/donate" target="_blank" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Donate</span></span>        
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-c_c" aria-hidden="true" >
+  <span></span>
+</span>  </span>
+
+  
+</a>
+
+</div>
+    </div>
+  
+</div>
+
+
+
+
+<div class="e95-11 x-bar x-bar-top x-bar-h x-bar-relative down-arrow x-bar-outer-spacers" data-x-bar="{&quot;id&quot;:&quot;e95-11&quot;,&quot;region&quot;:&quot;top&quot;,&quot;height&quot;:&quot;50vh&quot;}" >
+
+    
+      <div class="e95-11 x-bar-content">
+      
+<div class="e95-12 x-bar-container" >
+
+  
+  
+<div class="e95-13 x-text x-text-headline" >
+  <div class="x-text-content"><div class="x-text-content-text"><h2 class="x-text-content-text-primary">Pa'lante Borikua</h2><span class="x-text-content-text-subheadline">Juntos, podemos</span></div></div></div>
+
+<a class="e95-14 x-anchor x-anchor-button" tabindex="0" href="/volunteer" target="_blank" rel="nofollow" >
+
+  
+  <span class="x-anchor-content">
+    
+<span class="x-graphic" aria-hidden="true" >
+
+  
+<span class="e95-14 x-image x-graphic-image x-graphic-primary" data-x-single-anim="x-flip-y" >
+  <img alt="Image" src="https://movimientoborikua.org/wp-content/uploads/2018/10/icon.png" width="300" height="300" >
+</span>
+
+</span>    <span class="x-anchor-text"><span class="x-anchor-text-primary" >Volunteer</span><span class="x-anchor-text-secondary" >to get our community out to vote</span></span>          </span>
+
+  
+</a>
+
+<hr class="e95-15 x-line" >
+</div>
+    </div>
+  
+</div>
+
+
+
+    
+  </header>
+
+
+  <div class="x-main full" role="main">
+
+    
+      <article id="post-2" class="post-2 page type-page status-publish hentry hidetitle no-post-thumbnail">
+        
+
+<div class="entry-content content">
+
+
+  <div id="cs-content" class="cs-content" >
+<div class="e2-1 x-section" >
+    
+<div class="x-bg" aria-hidden="true" data-x-element="bg" >
+  <div class="x-bg-layer-lower-image" style=" background-image: url(); background-repeat: no-repeat; background-position: center; background-size: cover;" ></div>  <div class="x-bg-layer-upper-color" style=" background-color: transparent;" ></div></div>
+  
+<div class="e2-2 x-container max width" >
+    
+<div class="e2-3 x-column x-sm x-1-4" >
+    
+<a class="e2-4 x-anchor x-anchor-button" tabindex="0" href="https://www.fvap.gov/arizona" target="_blank" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Vote Absentee</span></span>        
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x overlap-c_l" aria-hidden="true" >
+  <span style="transform: skew(-25deg, 0);"></span>
+</span>
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x overlap-c_r" aria-hidden="true" >
+  <span style="transform: skew(-25deg, 0);"></span>
+</span>  </span>
+
+  
+</a>
+
+<hr class="e2-5 x-line" ></div>
+
+<div class="e2-6 x-column x-sm x-1-4" >
+    
+<a class="e2-7 x-anchor x-anchor-button" tabindex="0" href="https://www.azcleanelections.gov/how-to-vote/early-voting/in-person" target="_blank" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Vote Early in Person</span></span>        
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x overlap-c_l" aria-hidden="true" >
+  <span style="transform: skew(-25deg, 0);"></span>
+</span>
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x overlap-c_r" aria-hidden="true" >
+  <span style="transform: skew(-25deg, 0);"></span>
+</span>  </span>
+
+  
+</a>
+
+<hr class="e2-8 x-line" ></div>
+
+<div class="e2-9 x-column x-sm x-1-4" >
+    
+<a class="e2-10 x-anchor x-anchor-button" tabindex="0" href="https://www.azcleanelections.gov/how-to-vote/early-voting/ballot-by-mail" target="_blank" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Mail Back Your Ballot</span></span>        
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x overlap-c_l" aria-hidden="true" >
+  <span style="transform: skew(-25deg, 0);"></span>
+</span>
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x overlap-c_r" aria-hidden="true" >
+  <span style="transform: skew(-25deg, 0);"></span>
+</span>  </span>
+
+  
+</a>
+
+<hr class="e2-11 x-line" ></div>
+
+<div class="e2-12 x-column x-sm x-1-4" >
+    
+<a class="e2-13 x-anchor x-anchor-button" tabindex="0" href="https://www.azcleanelections.gov/en/how-to-vote/election-day/polling-place" target="_blank" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Vote On Election Day</span></span>        
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x overlap-c_l" aria-hidden="true" >
+  <span style="transform: skew(-25deg, 0);"></span>
+</span>
+<span class="x-particle x-anchor-particle-secondary" data-x-particle="scale-x overlap-c_r" aria-hidden="true" >
+  <span style="transform: skew(-25deg, 0);"></span>
+</span>  </span>
+
+  
+</a>
+
+<hr class="e2-14 x-line" ></div>
+</div>
+  </div>
+
+<div class="e2-17 x-section" >
+      
+<div class="e2-18 x-container max width" >
+    
+<div class="e2-19 x-column x-sm x-1-2" >
+    
+<a class="e2-20 x-anchor x-anchor-button" tabindex="0" href="https://www.tomorrowwevote.org/event/souls-to-the-polls/?fbclid=IwAR3uodJ-e73iIBmUgeHnu7IUsaXD_LViK-wPII7ohteIihSJszXDa__xv2s" target="_blank" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Souls to the Polls!</span><span class="x-anchor-text-secondary" >Early Voting and Festival! Bring your ballots or vote early to this one-time, one day event and festival of culture! <button class="button">JOIN US</button></span></span>          </span>
+
+  
+</a>
+</div>
+
+<div class="e2-21 x-column x-sm x-1-2" >
+    
+<div class="e2-22 x-frame x-frame-video-player" >
+  <div class="x-frame-inner">
+    
+<div class="e2-22 x-video x-video-player hide-controls autoplay loop muted" data-x-element="x_mejs" data-x-params="{&quot;poster&quot;:&quot;&quot;}" >
+  <video class="x-mejs advanced-controls" poster="" preload="auto" loop="" muted="" ><source src="https://scontent-lax3-2.cdninstagram.com/vp/35faacf44372ce6f0533e922a8806a82/5BD2963E/t50.2886-16/44069642_366481193924756_8909009868493422592_n.mp4" type="video/mp4" ></video></div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+
+<div class="e2-27 x-section" >
+      
+<div class="e2-28 x-container max width" >
+    
+<div class="e2-29 x-column x-sm x-1-2" >
+    
+<span class="e2-30 x-image" >
+  <img alt="Image" src="https://movimientoborikua.org/wp-content/uploads/2018/10/MG_3881.jpg" width="5616" height="3744" >
+</span>
+</div>
+
+<div class="e2-31 x-column x-sm x-1-2" >
+    
+<div class="e2-32 x-text" >
+  <span class="h5">Movimiento Borikua</span> will serve and unite Puerto Ricans in the diaspora, focusing our efforts in the Phoenix metropolitan area, with plans to expand as the organization’s reach and influence increases throughout the state.</div>
+
+<a class="e2-33 x-anchor x-anchor-button" tabindex="0" href="/about" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Learn More About Our Mission and Team</span></span>        
+<span class="x-particle x-anchor-particle-primary" data-x-particle="scale-x inside-c_c" aria-hidden="true" >
+  <span></span>
+</span>  </span>
+
+  
+</a>
+</div>
+</div>
+  </div>
+
+<div class="e2-38 x-section" >
+      
+<div class="e2-39 x-container max width" >
+    
+<div class="e2-40 x-column x-sm x-1-1" data-fade="1" data-x-element="column" data-x-params="{&quot;fade&quot;:true}" style="opacity: 0;transition-duration: 0.5s;" >
+    
+<div class="e2-41 x-bar-content-area" >
+  <div class="mec-wrap mec-skin-grid-container " id="mec_skin_61">
+    
+    <div id="mec_search_form_61" class="mec-search-form mec-totalcal-box"><div class="mec-dropdown-wrap"></div></div>    
+        <div class="mec-skin-grid-events-container" id="mec_skin_events_61">
+        No event found!    </div>
+        
+        
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+  
+
+</div>
+
+      </article>
+
+    
+  </div>
+
+
+    
+
+  <footer class="x-colophon" role="contentinfo" >
+
+    
+    
+
+<div class="e43-1 x-bar x-bar-footer x-bar-h x-bar-relative x-bar-outer-spacers" data-x-bar="{&quot;id&quot;:&quot;e43-1&quot;,&quot;region&quot;:&quot;footer&quot;,&quot;height&quot;:&quot;60vh&quot;}" >
+
+    
+<div class="x-bg" aria-hidden="true" data-x-element="bg" >
+  <div class="x-bg-layer-lower-image" style=" background-image: url(https://movimientoborikua.org/wp-content/uploads/2018/10/Upside-Down-Black-Flag-BG-logo-with-star.png); background-repeat: no-repeat; background-position: bottom; background-size: 300px;" ></div>  </div>
+
+      <div class="e43-1 x-bar-content">
+      
+<div class="e43-2 x-bar-container" >
+
+  
+  <ul class="e43-3 x-menu x-menu-inline" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-72" >
+<a class="e43-3 x-anchor x-anchor-menu-item x-always-active" tabindex="0" href="https://movimientoborikua.org/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Home</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf107;" ></i>      </span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71" >
+<a class="e43-3 x-anchor x-anchor-menu-item" tabindex="0" href="https://movimientoborikua.org/about-us/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >About Us</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf107;" ></i>      </span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70" >
+<a class="e43-3 x-anchor x-anchor-menu-item" tabindex="0" href="https://movimientoborikua.org/events/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Eventos</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf107;" ></i>      </span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69" >
+<a class="e43-3 x-anchor x-anchor-menu-item" tabindex="0" href="https://movimientoborikua.org/diario/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Notas Pa&#8217; Mi Gente</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf107;" ></i>      </span>
+
+  
+</a>
+</li></ul>
+</div>
+    </div>
+  
+</div>
+
+
+
+    
+  </footer>
+
+
+<div id="e95-3-off-canvas" class="e95-3 x-off-canvas x-off-canvas-left  x-hide-lg x-hide-xl" role="dialog" tabindex="-1" data-x-toggleable="e95-3" aria-hidden="true" aria-label="Off Canvas" >
+
+  <span class="x-off-canvas-bg"></span>
+
+  <button class="x-off-canvas-close x-off-canvas-close-left" data-x-toggle-close="1" aria-label="Close Off Canvas Content" >
+    <span>&times;</span>
+  </button>
+
+  <div class="x-off-canvas-content x-off-canvas-content-left" data-x-scrollbar="{&quot;suppressScrollX&quot;:true}" role="document" aria-label="Off Canvas Content" >
+    <ul class="e95-3 x-menu x-menu-layered x-current-layer" data-x-toggle-layered-root="1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-72" id="menu-item-72" >
+<a class="e95-3 x-anchor x-anchor-menu-item x-always-active" tabindex="0" href="https://movimientoborikua.org/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Home</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf105;" ></i>      </span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71" id="menu-item-71" >
+<a class="e95-3 x-anchor x-anchor-menu-item" tabindex="0" href="https://movimientoborikua.org/about-us/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >About Us</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf105;" ></i>      </span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70" id="menu-item-70" >
+<a class="e95-3 x-anchor x-anchor-menu-item" tabindex="0" href="https://movimientoborikua.org/events/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Eventos</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf105;" ></i>      </span>
+
+  
+</a>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69" id="menu-item-69" >
+<a class="e95-3 x-anchor x-anchor-menu-item" tabindex="0" href="https://movimientoborikua.org/diario/" >
+
+  
+  <span class="x-anchor-content">
+        <span class="x-anchor-text"><span class="x-anchor-text-primary" >Notas Pa&#8217; Mi Gente</span></span>    <i class="x-anchor-sub-indicator" aria-hidden="true" data-x-icon-s="&#xf105;" ></i>      </span>
+
+  
+</a>
+</li></ul>  </div>
+
+</div>
+
+    </div> <!-- END .x-site -->
+
+    
+      <a class="x-scroll-top right fade" title="Back to Top">
+        <i class="x-icon-angle-up" data-x-icon-s="&#xf106;"></i>
+      </a>
+
+      <script>
+
+      jQuery(document).ready(function($) {
+
+        var windowObj            = $(window);
+        var body                 = $('body');
+        var bodyOffsetBottom     = windowObj.scrollBottom();             // 1
+        var bodyHeightAdjustment = body.height() - bodyOffsetBottom;     // 2
+        var bodyHeightAdjusted   = body.height() - bodyHeightAdjustment; // 3
+        var scrollTopAnchor      = $('.x-scroll-top');
+
+        function sizingUpdate(){
+          var bodyOffsetTop = windowObj.scrollTop();
+          if ( bodyOffsetTop > ( bodyHeightAdjusted * 0.75 ) ) {
+            scrollTopAnchor.addClass('in');
+          } else {
+            scrollTopAnchor.removeClass('in');
+          }
+        }
+
+        windowObj.bind('scroll', sizingUpdate).resize(sizingUpdate);
+        sizingUpdate();
+
+        scrollTopAnchor.click(function(){
+          $('html, body').animate({ scrollTop: 0 }, 850, 'xEaseInOutExpo');
+          return false;
+        });
+
+      });
+
+      </script>
+
+    
+  </div> <!-- END .x-root -->
+
+<script type='text/javascript' src='https://movimientoborikua.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/themes/pro/cornerstone/assets/dist/js/site/cs-body.js?ver=3.5.2'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-content/themes/pro/framework/dist/js/site/x.js?ver=2.5.3'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-includes/js/comment-reply.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.13-9993131'></script>
+<script type='text/javascript' src='https://movimientoborikua.org/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+jQuery(document).ready(function()
+{
+    jQuery("#mec_skin_61").mecGridView(
+    {
+        id: "61",
+        start_date: "2020-03-13",
+        end_date: "2022-03-14",
+		offset: "0",
+		limit: "4",
+        atts: "atts%5Blabel%5D=&atts%5Bcategory%5D=&atts%5Blocation%5D=&atts%5Borganizer%5D=&atts%5Btag%5D=&atts%5Bauthor%5D=&atts%5Bskin%5D=grid&atts%5Bshow_past_events%5D=1&atts%5Bsk-options%5D%5Blist%5D%5Bstyle%5D=classic&atts%5Bsk-options%5D%5Blist%5D%5Bstart_date_type%5D=today&atts%5Bsk-options%5D%5Blist%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Blist%5D%5Bclassic_date_format1%5D=M+d+Y&atts%5Bsk-options%5D%5Blist%5D%5Bminimal_date_format1%5D=d&atts%5Bsk-options%5D%5Blist%5D%5Bminimal_date_format2%5D=M&atts%5Bsk-options%5D%5Blist%5D%5Bminimal_date_format3%5D=l&atts%5Bsk-options%5D%5Blist%5D%5Bmodern_date_format1%5D=d&atts%5Bsk-options%5D%5Blist%5D%5Bmodern_date_format2%5D=F&atts%5Bsk-options%5D%5Blist%5D%5Bmodern_date_format3%5D=l&atts%5Bsk-options%5D%5Blist%5D%5Bstandard_date_format1%5D=d+M&atts%5Bsk-options%5D%5Blist%5D%5Baccordion_date_format1%5D=d&atts%5Bsk-options%5D%5Blist%5D%5Baccordion_date_format2%5D=F&atts%5Bsk-options%5D%5Blist%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Blist%5D%5Bload_more_button%5D=1&atts%5Bsk-options%5D%5Blist%5D%5Bmonth_divider%5D=1&atts%5Bsk-options%5D%5Blist%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Bgrid%5D%5Bstyle%5D=classic&atts%5Bsk-options%5D%5Bgrid%5D%5Bstart_date_type%5D=today&atts%5Bsk-options%5D%5Bgrid%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bgrid%5D%5Bclassic_date_format1%5D=d+F+Y&atts%5Bsk-options%5D%5Bgrid%5D%5Bclean_date_format1%5D=d&atts%5Bsk-options%5D%5Bgrid%5D%5Bclean_date_format2%5D=F&atts%5Bsk-options%5D%5Bgrid%5D%5Bminimal_date_format1%5D=d&atts%5Bsk-options%5D%5Bgrid%5D%5Bminimal_date_format2%5D=M&atts%5Bsk-options%5D%5Bgrid%5D%5Bmodern_date_format1%5D=d&atts%5Bsk-options%5D%5Bgrid%5D%5Bmodern_date_format2%5D=F&atts%5Bsk-options%5D%5Bgrid%5D%5Bmodern_date_format3%5D=l&atts%5Bsk-options%5D%5Bgrid%5D%5Bsimple_date_format1%5D=M+d+Y&atts%5Bsk-options%5D%5Bgrid%5D%5Bcolorful_date_format1%5D=d&atts%5Bsk-options%5D%5Bgrid%5D%5Bcolorful_date_format2%5D=F&atts%5Bsk-options%5D%5Bgrid%5D%5Bcolorful_date_format3%5D=l&atts%5Bsk-options%5D%5Bgrid%5D%5Bnovel_date_format1%5D=d+F+Y&atts%5Bsk-options%5D%5Bgrid%5D%5Bcount%5D=4&atts%5Bsk-options%5D%5Bgrid%5D%5Blimit%5D=4&atts%5Bsk-options%5D%5Bgrid%5D%5Bload_more_button%5D=1&atts%5Bsk-options%5D%5Bgrid%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Bagenda%5D%5Bstyle%5D=clean&atts%5Bsk-options%5D%5Bagenda%5D%5Bstart_date_type%5D=today&atts%5Bsk-options%5D%5Bagenda%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bagenda%5D%5Bclean_date_format1%5D=l&atts%5Bsk-options%5D%5Bagenda%5D%5Bclean_date_format2%5D=F+j&atts%5Bsk-options%5D%5Bagenda%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Bagenda%5D%5Bload_more_button%5D=1&atts%5Bsk-options%5D%5Bagenda%5D%5Bmonth_divider%5D=1&atts%5Bsk-options%5D%5Bagenda%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Bstart_date_type%5D=start_current_month&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Bdefault_view%5D=list&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Blist%5D=1&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Byearly%5D=1&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Bmonthly%5D=1&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Bweekly%5D=1&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Bdaily%5D=1&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Bdisplay_price%5D=0&atts%5Bsk-options%5D%5Bfull_calendar%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Byearly_view%5D%5Bstyle%5D=modern&atts%5Bsk-options%5D%5Byearly_view%5D%5Bstart_date_type%5D=start_current_year&atts%5Bsk-options%5D%5Byearly_view%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Byearly_view%5D%5Bmodern_date_format1%5D=l&atts%5Bsk-options%5D%5Byearly_view%5D%5Bmodern_date_format2%5D=F+j&atts%5Bsk-options%5D%5Byearly_view%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Byearly_view%5D%5Bnext_previous_button%5D=1&atts%5Bsk-options%5D%5Byearly_view%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Bmonthly_view%5D%5Bstyle%5D=classic&atts%5Bsk-options%5D%5Bmonthly_view%5D%5Bstart_date_type%5D=start_current_month&atts%5Bsk-options%5D%5Bmonthly_view%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bmonthly_view%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Bmonthly_view%5D%5Bnext_previous_button%5D=1&atts%5Bsk-options%5D%5Bmonthly_view%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Bmap%5D%5Bstart_date_type%5D=today&atts%5Bsk-options%5D%5Bmap%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bmap%5D%5Blimit%5D=200&atts%5Bsk-options%5D%5Bmap%5D%5Bgeolocation%5D=0&atts%5Bsk-options%5D%5Bdaily_view%5D%5Bstart_date_type%5D=today&atts%5Bsk-options%5D%5Bdaily_view%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bdaily_view%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Bdaily_view%5D%5Bnext_previous_button%5D=1&atts%5Bsk-options%5D%5Bdaily_view%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Bweekly_view%5D%5Bstart_date_type%5D=start_current_week&atts%5Bsk-options%5D%5Bweekly_view%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bweekly_view%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Bweekly_view%5D%5Bnext_previous_button%5D=1&atts%5Bsk-options%5D%5Bweekly_view%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Btimetable%5D%5Bstyle%5D=modern&atts%5Bsk-options%5D%5Btimetable%5D%5Bstart_date_type%5D=start_current_week&atts%5Bsk-options%5D%5Btimetable%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Btimetable%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Btimetable%5D%5Bnext_previous_button%5D=1&atts%5Bsk-options%5D%5Btimetable%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Bmasonry%5D%5Bstart_date_type%5D=today&atts%5Bsk-options%5D%5Bmasonry%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bmasonry%5D%5Bdate_format1%5D=j&atts%5Bsk-options%5D%5Bmasonry%5D%5Bdate_format2%5D=F&atts%5Bsk-options%5D%5Bmasonry%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Bmasonry%5D%5Bfilter_by%5D=&atts%5Bsk-options%5D%5Bmasonry%5D%5Bsed_method%5D=0&atts%5Bsk-options%5D%5Bcover%5D%5Bstyle%5D=classic&atts%5Bsk-options%5D%5Bcover%5D%5Bdate_format_clean1%5D=d&atts%5Bsk-options%5D%5Bcover%5D%5Bdate_format_clean2%5D=M&atts%5Bsk-options%5D%5Bcover%5D%5Bdate_format_clean3%5D=Y&atts%5Bsk-options%5D%5Bcover%5D%5Bdate_format_classic1%5D=F+d&atts%5Bsk-options%5D%5Bcover%5D%5Bdate_format_classic2%5D=l&atts%5Bsk-options%5D%5Bcover%5D%5Bdate_format_modern1%5D=l%2C+F+d+Y&atts%5Bsk-options%5D%5Bcover%5D%5Bevent_id%5D=75&atts%5Bsk-options%5D%5Bcountdown%5D%5Bstyle%5D=style1&atts%5Bsk-options%5D%5Bcountdown%5D%5Bdate_format_style11%5D=j+F+Y&atts%5Bsk-options%5D%5Bcountdown%5D%5Bdate_format_style21%5D=j+F+Y&atts%5Bsk-options%5D%5Bcountdown%5D%5Bdate_format_style31%5D=j&atts%5Bsk-options%5D%5Bcountdown%5D%5Bdate_format_style32%5D=F&atts%5Bsk-options%5D%5Bcountdown%5D%5Bdate_format_style33%5D=Y&atts%5Bsk-options%5D%5Bcountdown%5D%5Bevent_id%5D=-1&atts%5Bsk-options%5D%5Bcountdown%5D%5Bbg_color%5D=%23437df9&atts%5Bsk-options%5D%5Bavailable_spot%5D%5Bdate_format1%5D=j&atts%5Bsk-options%5D%5Bavailable_spot%5D%5Bdate_format2%5D=F&atts%5Bsk-options%5D%5Bavailable_spot%5D%5Bevent_id%5D=-1&atts%5Bsk-options%5D%5Bcarousel%5D%5Bstyle%5D=type1&atts%5Bsk-options%5D%5Bcarousel%5D%5Bstart_date_type%5D=today&atts%5Bsk-options%5D%5Bcarousel%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bcarousel%5D%5Btype1_date_format1%5D=d&atts%5Bsk-options%5D%5Bcarousel%5D%5Btype1_date_format2%5D=F&atts%5Bsk-options%5D%5Bcarousel%5D%5Btype1_date_format3%5D=Y&atts%5Bsk-options%5D%5Bcarousel%5D%5Btype2_date_format1%5D=M+d%2C+Y&atts%5Bsk-options%5D%5Bcarousel%5D%5Btype3_date_format1%5D=M+d%2C+Y&atts%5Bsk-options%5D%5Bcarousel%5D%5Bcount%5D=2&atts%5Bsk-options%5D%5Bcarousel%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Bcarousel%5D%5Bautoplay%5D=&atts%5Bsk-options%5D%5Bslider%5D%5Bstyle%5D=t1&atts%5Bsk-options%5D%5Bslider%5D%5Bstart_date_type%5D=today&atts%5Bsk-options%5D%5Bslider%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Bslider%5D%5Btype1_date_format1%5D=d&atts%5Bsk-options%5D%5Bslider%5D%5Btype1_date_format2%5D=F&atts%5Bsk-options%5D%5Bslider%5D%5Btype1_date_format3%5D=l&atts%5Bsk-options%5D%5Bslider%5D%5Btype2_date_format1%5D=d&atts%5Bsk-options%5D%5Bslider%5D%5Btype2_date_format2%5D=F&atts%5Bsk-options%5D%5Bslider%5D%5Btype2_date_format3%5D=l&atts%5Bsk-options%5D%5Bslider%5D%5Btype3_date_format1%5D=d&atts%5Bsk-options%5D%5Bslider%5D%5Btype3_date_format2%5D=F&atts%5Bsk-options%5D%5Bslider%5D%5Btype3_date_format3%5D=l&atts%5Bsk-options%5D%5Bslider%5D%5Btype4_date_format1%5D=d&atts%5Bsk-options%5D%5Bslider%5D%5Btype4_date_format2%5D=F&atts%5Bsk-options%5D%5Bslider%5D%5Btype4_date_format3%5D=l&atts%5Bsk-options%5D%5Bslider%5D%5Btype5_date_format1%5D=d&atts%5Bsk-options%5D%5Bslider%5D%5Btype5_date_format2%5D=F&atts%5Bsk-options%5D%5Bslider%5D%5Btype5_date_format3%5D=l&atts%5Bsk-options%5D%5Bslider%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Bslider%5D%5Bautoplay%5D=&atts%5Bsf-options%5D%5Blist%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Blist%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Blist%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Blist%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Blist%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Blist%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bgrid%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bgrid%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bgrid%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bgrid%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bgrid%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bgrid%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bagenda%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bagenda%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bagenda%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bagenda%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bagenda%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bagenda%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bfull_calendar%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bfull_calendar%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmonthly_view%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmonthly_view%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmonthly_view%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmonthly_view%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmonthly_view%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmonthly_view%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Byearly_view%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Byearly_view%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Byearly_view%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Byearly_view%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Byearly_view%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Byearly_view%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmap%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmap%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmap%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmap%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bmap%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bdaily_view%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bdaily_view%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bdaily_view%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bdaily_view%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bdaily_view%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bdaily_view%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bweekly_view%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bweekly_view%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bweekly_view%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bweekly_view%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bweekly_view%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bweekly_view%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf_status%5D=1&atts%5B_edit_lock%5D=1540360814%3A2&atts%5B_edit_last%5D=2&atts%5Bshow_only_past_events%5D=0&atts%5Bshow_only_ongoing_events%5D=0&atts%5Bid%5D=61",
+        ajax_url: "https://movimientoborikua.org/wp-admin/admin-ajax.php?lang=ru",
+        sed_method: "0",
+        image_popup: "0",
+        sf:
+        {
+            container: "#mec_search_form_61",
+        },
+    });
+});
+</script>
+
+</body>
+</html>
